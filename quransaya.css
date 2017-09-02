@@ -1,0 +1,25 @@
+.d-panel:after,.d-panel:before{content:"";display:table;clear:both}
+.d-panel{padding:0.01em 16px}.d-panel{margin-top:16px;margin-bottom:16px}
+.d-leftbar{border-left:6px solid #ccc!important}
+.d-amber,.d-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.d-aqua,.d-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.d-blue,.d-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.d-light-blue,.d-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.d-brown,.d-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.d-cyan,.d-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.d-blue-grey,.d-hover-blue-grey:hover,.d-blue-gray,.d-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.d-green,.d-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.d-light-green,.d-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.d-indigo,.d-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.d-khaki,.d-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.d-lime,.d-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.d-orange,.d-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.d-deep-orange,.d-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.d-pink,.d-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.d-purple,.d-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.d-deep-purple,.d-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.d-red,.d-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.d-sand,.d-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.d-teal,.d-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.d-yellow,.d-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.d-large{font-size:18px!important}

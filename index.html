@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+  <title>QuranSaya.JS</title>
+  <meta name="description" content="QuranSaya.JS Plugin Jquery Sederhana Yang Bisa memunculkan ayat-ayat Al Quran">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="quransaya.css">
+  <link rel="icon"
+      type="image/png"
+      href="https://d30y9cdsu7xlg0.cloudfront.net/png/1546-200.png">
+</head>
+<body>
+
+<div class="w3-container w3-teal">
+<h1>QuranSaya.JS</h1>
+</div>
+
+<br>
+<div class="w3-container">
+<div class="w3-row">
+  <div class="w3-col m12 w3-center">
+    <p>QuranSaya.Js merupakan sebuah
+    plugin jQuery, yang dapat menampilkan
+    terjemahan ayat-ayat suci Al-Quran pada sebuah website.
+    Disini akan dijelaskan bagaimana cara menggunakan QuranSaya.JS</p>
+
+    <a href="https://github.com/dionarya6661/quransayajs" class="w3-btn w3-black w3-border w3-border-teal w3-round-xlarge">
+      View On Github</a>
+  </div>
+  <div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+<hr>
+  <h4><b>Contoh Penggunaan : </b></h4>
+<div class="w3-row">
+
+  <div class="w3-col m6">
+    <div class="w3-panel w3-card-2 w3-light-grey">
+      <h4>Kode seperti Ini:</h4>
+      <div class="w3-code jsHigh notranslate">
+        $('#selector').quransaya({surat: 16, ayat: 23});<br>
+        //note surat bisa diisi dengan no 1 sampai 114
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-col m6 w3-center">
+    <p id="surat"></p>
+  </div>
+
+</div>
+<br><br><hr>
+<div class="w3-row">
+  <div class="w3-col m6">
+    <div class="w3-panel w3-card-2 w3-light-grey">
+      <h4>Contoh Penggunaan Memakai Warna:</h4>
+
+      <div class="w3-code htmlHigh">
+        //pertama anda harus memakai file quransaya.css terlebi dahulu<br>
+         &lt;link rel="stylesheet" href="quransaya.css">
+      </div>
+
+      <div class="w3-code jsHigh">
+        $('#selector').quransaya({surat: 16, ayat: 23, warna: 'green'});
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-col m6 w3-center">
+    <blockquote class='w3-panel d-leftbar w3-green'>
+      <p class='w3-large'><i>Tidak diragukan lagi bahwa sesungguhnya
+         Allah mengetahui apa yang mereka rahasiakan
+          dan apa yang mereka lahirkan. Sesungguhnya Allah
+        tidak menyukai orang-orang yang sombong.</i></p>
+      <p>(QS. An-Nahl:23)</p>
+  </blockquote>
+  </div>
+</div>
+<hr>
+
+<div class="w3-row">
+<div class="w3-col m12">
+<h1>Daftar Warna: </h1><br>
+<div class="w3-quarter">
+<div class="w3-container w3-red w3-center w3-padding-16"><p>Red</p></div>
+<div class="w3-container w3-green w3-center w3-padding-16"><p>Green</p></div>
+<div class="w3-container w3-blue w3-center w3-padding-16"><p>Blue</p></div>
+<div class="w3-container w3-black w3-center w3-padding-16"><p>Black</p></div>
+</div>
+<div class="w3-quarter">
+<div class="w3-container w3-pink w3-center w3-padding-16"><p>Pink</p></div>
+<div class="w3-container w3-teal w3-center w3-padding-16"><p>Teal</p></div>
+<div class="w3-container w3-indigo w3-center w3-padding-16"><p>Indigo</p></div>
+<div class="w3-container w3-brown w3-center w3-padding-16"><p>Brown</p></div>
+</div>
+<div class="w3-quarter w3-hide-small">
+<div class="w3-container w3-orange w3-text-whie w3-center w3-padding-16"><p>Orange</p></div>
+<div class="w3-container w3-cyan w3-text-white w3-center w3-padding-16"><p>Cyan</p></div>
+<div class="w3-container w3-purple w3-center w3-padding-16"><p>Purple</p></div>
+<div class="w3-container w3-center w3-padding-16 w3-grey"><p>Gray</p></div>
+</div>
+<div class="w3-quarter w3-hide-small">
+<div class="w3-container w3-yellow w3-center w3-padding-16"><p>Yellow</p></div>
+<div class="w3-container w3-lime w3-center w3-padding-16"><p>Lime</p></div>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="quransaya.js"></script>
+<script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
+<script>
+$(document).ready(function(){
+  $('#surat').quransaya({surat: 16, ayat: 23});
+
+  // $('#contoh1').quransaya({surat: 3, ayat: 23, warna:'green'});
+});
+</script>
+</body>
+</html>
