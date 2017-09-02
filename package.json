@@ -1,0 +1,24 @@
+{
+  "name": "quransaya.js",
+  "version": "1.0.0",
+  "description": "\"Simple Plugin Jquery untuk menampilkan ayat suci Al-Quran\"",
+  "main": "quransaya.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dionarya6661/quransayajs.git"
+  },
+  "keywords": [
+    "plugin",
+    "jquery",
+    "jquery"
+  ],
+  "author": "Dion Arya Pamungkas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dionarya6661/quransayajs/issues"
+  },
+  "homepage": "https://github.com/dionarya6661/quransayajs#readme"
+}
