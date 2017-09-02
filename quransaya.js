@@ -29,7 +29,7 @@ var listSurah  = [
 
 
 $.fn.quransaya = function(parameter) {
-  url = 'http://api.quransaya.id/surat/'+parameter.surat+'/ayat/'+parameter.ayat;
+  url = 'https://api.quransaya.id/surat/'+parameter.surat+'/ayat/'+parameter.ayat;
   ini = this;
   suratKe = parseInt(parameter.surat) - 1;
   ayatKe  = parseInt(parameter.ayat);
