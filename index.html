@@ -26,7 +26,7 @@
     Disini akan dijelaskan bagaimana cara menggunakan QuranSaya.JS</p>
 
     <a href="https://github.com/dionarya6661/quransayajs/archive/master.zip" class="w3-btn w3-white w3-border w3-border-black w3-round-xlarge">
-      Download</a> 
+      Download</a>
     <a href="https://github.com/dionarya6661/quransayajs" class="w3-btn w3-black w3-border w3-border-teal w3-round-xlarge">
       View On Github</a>
 
@@ -74,13 +74,7 @@
   </div>
 
   <div class="w3-col m6 w3-center">
-    <blockquote class='w3-panel d-leftbar w3-green'>
-      <p class='w3-large'><i>Tidak diragukan lagi bahwa sesungguhnya
-         Allah mengetahui apa yang mereka rahasiakan
-          dan apa yang mereka lahirkan. Sesungguhnya Allah
-        tidak menyukai orang-orang yang sombong.</i></p>
-      <p>(QS. An-Nahl:23)</p>
-  </blockquote>
+  <div id="selector"></div>
   </div>
 </div>
 <hr>
@@ -112,14 +106,15 @@
 </div>
 </div>
 
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="quransaya.js"></script>
+<script src="quransaya.min.js"></script>
 <script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
 <script>
 $(document).ready(function(){
   $('#surat').quransaya({surat: 16, ayat: 23});
-
-  // $('#contoh1').quransaya({surat: 3, ayat: 23, warna:'green'});
+  $('#selector').quransaya({surat: 16, ayat: 23, warna:'green'});
 });
 </script>
 </body>

@@ -34,13 +34,16 @@ $.fn.quransaya = function(parameter) {
   suratKe = parseInt(parameter.surat) - 1;
   ayatKe  = parseInt(parameter.ayat);
   warna   = 'd-'+parameter.warna;
-
-  $.getJSON(url, function( data ) {
-    ini.append("<blockquote class='d-panel d-leftbar "+warna+"'><p class='d-large'><i>"+data[0].arti+"</i></p><p>(QS. "+listSurah[suratKe]+":"+ayatKe+")</p></blockquote>");
-  });
+  doAjax(warna, suratKe, ayatKe, url, ini);
 
 return this;
 }
+
+  var doAjax = function(warna, suratKe, ayatKe, url, ini){
+    $.getJSON(url, function( data ) {
+      ini.append("<blockquote class='d-panel d-leftbar "+warna+"'><p class='d-large'><i>"+data[0].arti+"</i></p><p>(QS. "+listSurah[suratKe]+":"+ayatKe+")</p></blockquote>");
+    });
+  }
 
 
 }( jQuery ));
